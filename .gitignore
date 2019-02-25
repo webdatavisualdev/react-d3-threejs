@@ -1,0 +1,9 @@
+firebase.json
+.firebase/
+.firebaserc
+src/static/
+Book.csv
+map-routes.csv
+package-lock.json
+node_modules/
+build/

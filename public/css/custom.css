@@ -1,0 +1,1256 @@
+@font-face {
+   font-family: 'PayPal Sans Big Medium';
+   font-style: normal;
+   font-weight: 500;
+   src: url('/fonts/PayPalSansBig-Medium.otf') format('opentype');
+}
+@font-face {
+   font-family: 'PayPal Sans Big Thin';
+   font-style: normal;
+   font-weight: normal;
+   src: url('/fonts/PayPalSansBig-Thin.otf') format('opentype');
+
+}
+@font-face {
+   font-family: 'PayPal Sans Big Light';
+   font-style: normal;
+   font-weight: 300;
+   src: url('/fonts/PayPalSansBig-App-Light.ttf') format('truetype'),
+        url('/fonts/PayPalSansBig-App-LightItalic.ttf') format('truetype');
+}
+@font-face {
+   font-family: 'PayPal Sans Big';
+   font-style: normal;
+   font-weight: normal;
+   src: url('/fonts/PayPalSansBig-App-Regular.ttf') format('truetype'),
+        url('/fonts/PayPalSansBig-App-RegularItalic.ttf') format('truetype');
+
+} 
+.body {
+    overflow-x: hidden;
+}
+.dHide {
+    display: none !important;
+}
+.row{
+    margin:auto !important;
+    padding-left: 15px;  /* 2/1/2019 gs*/
+    padding-right: 15px; /* 2/1/2019 gs*/
+}
+.wrapper {
+    position: relative;
+}
+.slider_whole_dot_bar {
+    padding-left: 110px;
+}
+.slider_whole_dot_map {
+    padding-top: 120px;
+    padding-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.slider_whole_dot_bar {
+    padding-left: 110px;
+}
+.bottom_footer_section {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+}
+.container-fluid {
+    padding: 80px 60px 30px 60px !important; /* 2/1/2019 gs*/
+}
+.logo-div {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-div p,
+.logo-div p a {
+    color: white;
+    font-family: PayPal Sans Big;
+    text-decoration: none;
+}
+.logo-div p span {
+    opacity: .5;
+    font-size: 14px;
+    margin-right: 15px;
+}
+.feedback_full { /* 2/1/2019 gs*/
+    padding-bottom: 40px;
+}
+.feed_other { /* 2/1/2019 gs*/
+    padding: 70px 0 0 15px !important;
+}
+.right_reserve { /* 2/1/2019 gs*/
+    /* position: relative; */
+}
+.update_prt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 12px;
+    letter-spacing: -0.1px;
+    color: #ffffff;
+    text-align: right;
+    padding-top: 10px;
+}
+.nimblet { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Medium;
+}
+.bottom_one { /* 2/1/2019 gs*/
+    padding-left: 0 !important;
+}
+.iuv_info { /* 2/1/2019 gs*/
+    width: 100%;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-bottom: 14px;
+}
+.iuv-txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 14px;
+    padding-top: 2px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+.info-txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+    margin-left: 10px;
+}
+.mobile-bottom { /* 2/1/2019 gs*/
+    width: 100%;
+    display: none;
+}
+.Msingle_line { /* 2/1/2019 gs*/
+    border: 7px solid #0064c7;
+    margin-bottom: 33px;
+    width: 100%;
+    max-width: 390px;
+}
+.mobile-bottom p {  /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 18px;
+    color: #000000;
+    max-width: 325px;
+}
+.mobile-bottom_txt {
+    padding-top: 60px;
+    display: none;
+}
+.papl-logo {
+    height: 45px;
+}
+#first_sec .wrapper {
+    flex: 1;
+    margin: 50px 0;
+}
+.word-logo {
+    padding-left: 41px;
+}
+img {
+    /* max-width: calc(100% - (0 * 30px)); */
+}
+.watch_text {
+    font-size: 28px;
+    color: #fff;
+    font-family: PayPal Sans Big;
+    max-width: 550px;
+}
+.title {
+    width: 300px;
+    font-size: 40px;
+    color: #fff;
+    font-family: PayPal Sans Big Medium;
+    border-bottom: 10px solid rgba(255, 255, 255, 0.25);
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+.paypal_text {
+    color: #0064c7;
+    font-family: PayPal Sans Big Medium;
+}
+.button_sec {
+    margin-top: 68px;
+}
+.footer-sec .button_sec {
+    margin-top: 5px;
+    padding-left: 0px;
+}
+.papal_buttn {
+    max-width: 270px;
+}
+.papal_buttn a {
+    color: #fff;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #ff9600;
+    text-align: center;
+    font-size: 18px;
+    font-family: PayPal Sans Big;
+    display: inline-block;
+    box-shadow: 0 0 39px 0 rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+}
+/* .papal_buttn a::before {
+    content: url('/image/paypal_icon.png');
+    padding-right: 18px;
+} */
+.scroll_cntnu {
+    width: 100%;
+    text-align: center;
+    font-family: PayPal Sans Big Light;
+}
+.scroll_begin {
+    width: 100%;
+    text-align: center;
+    font-family: PayPal Sans Big Light;
+}
+.scroll_text {
+    padding-left: 60px;
+    font-size: 1.5em;
+    text-align: left;
+    color: #000000;
+    text-decoration: none;
+    color: black;
+}
+section {
+    position:relative;
+}
+.scrollNext {
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+.sec_first {
+    background-image: linear-gradient(125deg, #229bde, #142e87);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec_second {
+    padding: 0;
+    padding-top: 60px;
+    height: 100vh;
+}
+.sec_third {
+    padding: 0;
+    padding-top: 60px;
+    height: 100vh;
+}
+.sec_fourth {
+    padding: 0;
+    padding-top: 60px;
+}
+#rural_sec,
+#overall_sec {
+    height: 100vh;
+}
+#fourth_sec {
+    /* height: 100vh; */
+    /* background-image: url(/image/footer-bg.png); */
+    background-repeat: no-repeat;
+    background-color: #0064c7;
+    background-size: 500px;
+    background-position-x: calc(100% - 75px);
+    background-position-y: 60px;
+}
+.footer-sec {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer_top { /* 2/1/2019 gs*/
+}
+.footer_bottom { /* 2/1/2019 gs*/
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.top-footer-contain {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.love_txt { /* 2/1/2019 gs*/
+    font-family: PayPal Sans Big Light;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+    color: #ffffff;
+    max-width: 600px;
+}
+.unavailableText {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+    font-family: PayPal Sans Big Light;
+    font-size: 20px;
+    display: none;
+}
+.zoom {
+    fill: transparent;
+}
+.bottom-container { /* 2/1/2019 gs*/
+    padding: 80px 80px 75px 80px !important;
+}
+.topfobutton { /* 2/1/2019 gs*/
+    padding-bottom: 50px;
+}
+.select_sec {
+    text-align: right;
+}
+.bargraph {
+    margin: auto;
+    padding: 30px 60px !important;
+}
+.bar_graph {
+    text-align: right;
+    padding-top: 72px;
+}
+.custum-fluid {
+    padding: 13px 13px 45px 80px !important; /* 2/1/2019 gs*/
+}
+.footer_bar {
+    width: 100%; /* 2/1/2019 gs*/
+}
+.fbar_text {   /* 2/1/2019 gs*/
+    font-size: 22px;
+    line-height: 30px;
+    color: #ffffff;
+    max-width: 536px;
+    margin-bottom: 36px;
+    width: 100%;
+    font-family: PayPal Sans Big Light;
+}
+.fsingle_line {  /* 2/1/2019 gs*/
+    border: 5px solid rgba(255, 255, 255, 0.25);
+    margin-bottom: 36px;
+    width: 100%;
+    max-width: 390px;
+}
+.bar_text {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 40px;
+    color: #000000;
+    margin-left: 30px;
+    border-bottom: 5px solid #ff9600;
+    font-family: PayPal Sans Big Medium;
+    text-transform: uppercase;
+    padding-right: 25px;
+}
+.grow-text {
+    font-family: PayPal Sans Big;
+}
+.single_line {
+    border: 7px solid #ececec;
+    margin-bottom: 33px;
+    width: 60%;
+}
+.top_fcolumn {
+    padding: 0 !important;
+}
+.lorem-text p {
+    font-size: 16px;
+    margin: 0;
+    color: #f0f0f0;
+    font-family: PayPal Sans Big Light;
+}
+.lorem-text p a {
+    color: #f0f0f0;
+}
+.footer-sec .lorem-text p a {
+    font-family: PayPal Sans Big;
+}
+.carousel-fluid {
+    padding: 0 80px 30px 80px;
+}
+.scroll_second {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: PayPal Sans Big Light;
+}
+.select_option select {
+    width: 250px;
+    height: 50px;
+    border-radius: 36px;
+    background-color: #fff;
+    border: 2px solid #0064c7;
+    color: #000;
+    padding: 7px 25px;
+    font-size: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(/image/scroll_one.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 25px;
+    outline: none;
+    cursor: pointer;
+    font-family: PayPal Sans Big;
+    margin-right: 30px;
+}
+.select_option {
+    text-align: right;
+    z-index: 999;
+    position: relative;
+}
+html {
+  scroll-behavior: smooth;
+}
+header.header-logo {
+    display: block;
+    width: 100%;
+    z-index: 99999;
+    line-height: 23px;
+}
+.cont_prt {
+    width: 100%;
+}
+.scount_img {
+    padding: 30px 0;
+}
+.smap {
+    position: relative;
+}
+.smap svg {
+    width: 100%;
+}
+.second_carousel {
+    padding-top: 150px;
+}
+.map-continue {
+    margin: 0 auto;
+}
+.map_notification {
+    position: absolute;
+    width: 300px;
+    z-index: 9;
+    left: 100px;
+    height: 100px;
+    bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 95px 5px 5px;
+    text-align: center;
+}
+.map_note_text {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 8px;
+    font-family: PayPal Sans Big Light;
+}
+.select_sprt {
+    text-align: right;
+}
+.blue-border {
+    border: 5px solid #009cec;
+    margin-top: 32px;
+    margin-bottom: 33px;
+    width: 75%;
+    margin-left: 15px;
+    display: none;
+}
+.black-border {
+    border: 2px solid #000000;
+    margin-top: 52px;
+    width: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+.swipe_text {
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 21px;
+    display: none;
+}
+.carousel_custom1 {
+    padding-bottom: 58px;
+    display: inline-block;
+}
+.merchant {
+    display: none;
+}
+.mobile_bar {
+    display: none;
+}
+.scroll_mobiles {
+    display: none;
+}
+.tcustum-fluid {
+    padding: 13px 13px 45px 80px;
+}
+.ncarousel-fluid {
+    margin-top: -50px;
+}
+.scarousel_custom {
+    z-index: 9999;
+}
+.bar_sldr div:focus {
+    outline: none !important;
+}
+.bar_sldr:focus {
+    outline: none !important;
+}
+.br_sldr_upr:focus {
+    outline: none !important;
+}
+.both_ply_pause .button {
+    background: transparent;
+    border: none;
+    line-height: 3.5;
+    cursor: pointer;
+}
+.both_ply_pause {
+    width: 80px;
+    margin: auto;
+    background: #0064c7;
+    height: 39px;
+    border-radius: 38px;
+    position: relative;
+    right: 136%;
+}
+.both_ply_pause .button:focus {
+    outline: none;
+}
+.both_ply_pause .button img:focus {
+    outline: none;
+}
+.footer_papal_buttn {
+    margin-top: 125px;
+}
+.footer_papal_buttn a { /* 2/1/2019 gs*/
+    max-width: 300px;
+}
+.footer_papal_buttn a { /* 2/1/2019 gs*/
+    color: #000000;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid #009cec;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: PayPal Sans Big;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.footer_papal_buttn a::before {
+    content: url('/image/paypal_icon.png');
+    padding-right: 18px;
+}
+.background {
+    background-image: url('/image/background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    height: 100%;
+}
+.frst_sld {
+    padding-bottom: 40px;
+    text-align: right;
+    display: block;
+}
+.sldr_dot {
+    background: #009cec;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.sldr_line {
+    bottom: 15px;
+    background: #eaeaea;
+    width: 75px;
+    height: 8px;
+    position: relative;
+    left: 42px;
+    z-index: -1;
+}
+.sldr_line_last {
+    background: transparent !important;
+}
+.slider_whole_dot {
+    position: relative;
+    right: 96%;
+    top: 114px;
+}
+.year_dot {
+    padding-left: 21px;
+    font-weight: 500;
+}
+.slider_whole_dot_mob {
+    position: absolute;
+    bottom: -90%;
+}
+.both_ply_pause_map {
+    width: 80px;
+    margin: auto;
+    background: #0064c7;
+    height: 39px;
+    border-radius: 38px;
+}
+.both_ply_pause_map .button {
+    background: transparent;
+    border: none;
+    line-height: 3.5;
+    cursor: pointer;
+}
+.sldr_line_map {
+    bottom: 15px;
+    margin-left: 60px;
+    background: #d8d8d8;
+    width: 23px;
+    height: 2px;
+    z-index: -1;
+    position: relative;
+    margin-top: 5px;
+
+}
+.frst_sld.selected .sldr_line_map {
+    background: #009cec;
+}
+.frst_sld .year_dot_map {
+    opacity: 0.35;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-family: PayPal Sans Big Medium;
+}
+.frst_sld.selected .year_dot_map {
+    opacity: 1;
+    background-color: #2F65C5;
+    color: #fff;
+    border-radius: 20px;
+}
+.year_dot_map {
+    font-weight: 500;
+    font-size: 15px;
+}
+.both_ply_pause_map .button:focus {
+    outline: none;
+}
+.smap div:focus{
+    outline: none;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.districts {
+  fill: #bbb;
+}
+
+.districts :hover {
+  fill: orange;
+}
+
+.district-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+
+.state-boundaries {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.arcs path {
+  stroke-width: 2px;
+  stroke: #fff;
+  pointer-events: none;
+  fill: none;
+}
+
+.feature {
+  fill: #ccc;
+  cursor: pointer;
+}
+
+.feature.active {
+  fill: orange;
+}
+
+.stroke {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3px;
+}
+.mapael .zoomButton {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    width: 15px;
+    height: 15px;
+    line-height: 10px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+
+    -webkit-user-select: none;
+    -khtml-user-select : none;
+    -moz-user-select: none;
+    -o-user-select : none;
+    user-select: none;
+}
+
+/* Reset Zoom button first */
+.mapael .zoomReset {
+    top: 10px;
+}
+
+/* Then Zoom In button */
+.mapael .zoomIn {
+    top: 30px;
+}
+
+/* Then Zoom Out button */
+.mapael .zoomOut {
+    top: 50px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.donut-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.donut-percent {
+    font-size: 3em;
+    font-family: PayPal Sans Big Medium;
+    margin-bottom: 30px;
+}
+
+.donut-percent span {
+    font-size: 0.6em;
+    font-family: PayPal Sans Big;
+}
+
+.scroll_icon {
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+    background: #f0f0f0;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section_num {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 5px solid #009cec;
+    background-color: #0064c7;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: PayPal Sans Big;
+}
+
+.cntbr_txt {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.donut-text-section h3 {
+    font-size: 2.5em;
+    margin-bottom: 0;
+    font-family: PayPal Sans Big Medium;
+}
+
+.donut-text-section p {
+    font-size: 1.5em;
+    font-family: PayPal Sans Big Light;
+}
+.map-section {
+    padding: 30px 60px !important;
+}
+.btn-arrow-right:hover,.btn-arrow-left:hover {
+    cursor: pointer;
+}
+.rural-content {
+    margin-top: 100px;
+}
+.btn-arrow-left {
+    margin-left: 60px;
+}
+.btn-arrow-right {
+    margin-right: 60px;
+}
+.overall-section {
+    margin-top: 60px;
+}
+.bottom-fcontainer {
+    padding-bottom: 50px !important;
+}
+.scroll_btn {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.scroll_btn a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: PayPal Sans Big Light;    
+}
+.bar_prt {
+    padding: 0 !important;
+}
+.axis path {
+    stroke: #ccc;
+}
+
+.tick {
+    font-size: 12px;
+}
+.bar-tooltip,
+.map-tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.sme_bar_graph {
+    position: relative;
+}
+@media (max-width: 767px){
+    .background {
+        background-image: none;
+    }
+    .logo-div {
+        padding: 20px;
+        display: block;
+    }
+    .logo-div p span {
+        display: block;
+    }
+    .scroll_icon {
+        right: 15px;
+        bottom: 15px;
+    }
+    .rural-content {
+        margin-top: 0;
+        padding: 0 !important;
+    }
+    .btn-arrow-left {
+        position: absolute;
+        top: 30vh;
+        left: 10px;
+        margin-left: 0;
+        z-index: 1000;
+    }
+    .btn-arrow-right {
+        position: absolute;
+        top: 30vh;
+        right: 10px;
+        margin-right: 0;
+        z-index: 1000;
+    }
+    .rural-slider .col-md-6 {
+        text-align: center;
+    }
+    .donut-percent {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .donut-text-section {
+        display: none;
+    }
+    .overall-section {
+        margin-top: 0;
+        padding: 0 !important;
+    }
+    .overall-section .col-md-12 {
+        padding: 0 !important;
+    }
+    .sec_second, .sec_third, .sec_fourth {
+        padding-top: 30px;
+    }
+    .map-section {
+        padding: 0 !important;
+    }
+    .map-section .col-sm-11 {
+        padding: 0 !important;
+    }
+    .smap {
+        padding: 0 !important;
+    }
+    .mHide {
+        display: none !important;
+    }
+    .dHide {
+        display: block !important;
+    }
+    .ply_pause_btn_map {
+        float: left;
+        margin-left: -33px;
+    }
+    .container-fluid {
+        padding: 0px 7px 0px 7px !important; /* 2/1/2019 gs*/
+    }
+    header.header-logo {
+        padding: 10px 7px 83px 7px !important; /* 2/1/2019 gs*/
+    }
+    .button_sec {
+        margin: 0;
+        padding-top: 20px;
+    }
+    .black-border {
+        border: 2px solid #000000;
+        margin-top: 0px;
+        width: 42%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    .row{
+        margin:auto !important;
+        padding: 0px;  /* 2/1/2019 gs*/
+    }
+    .map_prt {
+        padding: 0 !important;
+    }
+    .sme_bar_graph {
+        height: 50vh;
+    }
+    .bargraph {
+        height:60vh;
+        padding: 0 !important;
+    }
+    .bargraph .col-sm-11 {
+        padding: 0 !important;
+    }
+    .frst_sld {
+        display: inline-block;
+        text-align: right;
+    }
+    .sldr_line_map {
+        display: none;
+    }
+    .slider_whole_dot_bar {
+        padding-left: 20px;
+    }
+    .footer_bottom { /* 2/1/2019 gs*/
+        background-color: #0064c7;
+        /* height: 40vh; */
+        padding-bottom: 20px;
+    }
+    .word-logo {
+        width: 30%;
+    }
+    .word-logo {
+        padding-left: 22px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .watch_text {
+        font-size: 18px;
+    }
+    .mobile-bottom { /* 2/1/2019 gs*/
+        display: block;
+    }
+    .mobile-bottom_txt { /* 2/1/2019 gs*/
+        display: block;
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+    }
+    .fsingle_line { /* 2/1/2019 gs*/
+        display: none;
+    }
+    .top-three { /* 2/1/2019 gs*/
+        /* display: none !important; */
+    }
+    .topfobutton { /* 2/1/2019 gs*/
+        padding-bottom: 0;
+    }
+    .love_txt { /* 2/1/2019 gs*/
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .feedback_full { /* 2/1/2019 gs*/
+        display: none !important;
+    }
+    .bottom-fcontainer { /* 2/1/2019 gs*/
+        padding-top: 20px !important;
+    }
+    .feed_other { /* 2/1/2019 gs*/
+        padding-top: 0;
+    }
+    .info-txt { /* 2/1/2019 gs*/
+        font-size: 16px;
+    }
+    .bottom_two { /* 2/1/2019 gs*/
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .update_prt { /* 2/1/2019 gs*/
+        right: auto;
+    }
+    .topfobutton .button_sec { /* 2/1/2019 gs*/
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+    .both_ply_pause { /* 2/1/2019 gs*/
+        right: 40%;
+        top: 132px;
+        z-index: 99;
+    }
+    .sec_first {
+        /* background-image: url(/image/05m.png); */
+        height:100vh;
+    }
+    .blue-border {
+        display: block;
+    }
+    .black-border {
+        display: block;
+    }
+    .scroll_begin {
+        margin-top: 0px;
+    }
+    .scroll_cntnu {
+        display: none;
+    }
+    .scroll_text {
+        display: none;
+    }
+    .swipe_text {
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+    .swipe_text a {
+        display: block;
+        text-decoration: none;
+        color:#000;
+    }
+    .merchant {
+        display: block;
+        font-size: 17px;
+        font-weight: initial;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.59;
+        letter-spacing: -0.2px;
+        color: #000000;
+    }
+    /* .carousel_custom1 img {
+        float: left;
+        width: 30%;
+    } */
+    .carousel_custom1 span.merchant {
+        float: right;
+        width: 65%;
+    }
+    .count_img {
+        display: none;
+    }
+    .custum-fluid {
+        display: none;
+    }
+    .mobile_bar {
+        display: block;
+        text-align: center;
+    }
+    .ply_pause_btn { /* 2/1/2019 gs*/
+        margin-top: -60px;
+    }
+    .bar_graph { /* 2/1/2019 gs*/
+        padding-top: 0;
+    }
+    .select_option select {
+        margin: auto;
+        margin-top: 15px;
+    }
+    .select-fluid {
+        padding: 7px 28px 43px 28px;
+    }
+    .scroll_mobiles {
+        width: 100%;
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 7px;
+        background-color: #f7f7f7;
+        font-family: PayPal Sans Big Light;
+    }
+    .scroll_second {
+        display: none;
+    }
+    .carousel-fluid {
+        padding-bottom: 20px;
+    }
+    .cntbr_txt {
+        margin-left: 0;
+    }
+    .cntbr_txt .bar_text {
+        font-size: 16px;
+        margin-left: 15px;
+    }
+    .mobile_line {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .lorem-text p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .map_notification {
+        display:none;
+    }
+    .tcustum-fluid {
+        padding: 13px 28px 7px 28px;
+    }
+    .ncarousel-fluid {
+        padding: 0 28px 18px 28px !important;
+    }
+    .papal_buttn {
+        margin: auto;
+    }
+    .select_option {
+        text-align: center;
+    }
+    .carousel_custom2 {
+        text-align: center;
+    }
+    .select_sprt {
+        padding-right: 15px !important;
+        text-align: center;
+    }
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+    .rural-slider {
+        margin-top: 30px !important;
+    }
+    .tick {
+        font-size: 10px;
+    }
+    #fourth_sec {
+        background-image: none;
+    }
+    .slider_whole_dot_map {
+        position: absolute !important;
+        top: 50px;
+        right: 0;
+        width: 80px !important;
+    }
+}
+@media (min-width: 481px) and (max-width: 600px){
+    .word-logo {
+        width: auto;
+        padding-left: 20px;
+    }
+    .carousel_custom1 img {
+        width: auto;
+    }
+}
+@media (min-width: 601px) and (max-width: 767px){
+    .word-logo {
+        width: auto;
+        padding-left: 41px;
+    }
+    .carousel_custom1 img {
+        width: auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 996px){
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+    .map_notification img {
+        top: 60%;
+        width: 75%;
+        margin-left: 15px;
+    }
+    .background {
+        background-image: none;
+    }
+    .scroll_text {
+        display: none;
+    }
+    .slider_whole_dot_map {
+        position: absolute !important;
+        top: 50px;
+        right: 0;
+    }
+    .cntbr_txt .bar_text {
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .donut-text-section {
+        display: none;
+    }
+    .btn-arrow-left {
+        position: absolute;
+        top: 30vh;
+        left: 10px;
+        margin-left: 0;
+        z-index: 1000;
+    }
+    .btn-arrow-right {
+        position: absolute;
+        top: 30vh;
+        right: 10px;
+        margin-right: 0;
+        z-index: 1000;
+    }
+}
+@media (min-width: 997px) and (max-width: 1190px){
+    .ncarousel-fluid {
+        margin-top: 0;
+    }
+}
